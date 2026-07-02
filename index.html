@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança Digital - Melhor Idade</title>
+    <style>
+        /* Cores acessíveis (Alto Contraste) */
+        :root {
+            --cor-fundo: #FFFFFF;
+            --cor-texto: #1A1A1A;
+            --cor-primaria: #00468C; /* Azul escuro seguro */
+            --cor-destaque: #E60000; /* Vermelho alerta */
+            --cor-card-fundo: #F4F6F9;
+        }
+
+        /* Configurações Globais de Acessibilidade */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            line-height: 1.6;
+            padding: 20px;
+            font-size: 22px; /* Fonte ampliada para leitura fácil */
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: var(--cor-primaria);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Seções e Grade de Dicas */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .introducao {
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .dica-card {
+            background-color: var(--cor-card-fundo);
+            border: 4px solid var(--cor-primaria); /* Bordas grossas visíveis */
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        .dica-card h2 {
+            color: var(--cor-primaria);
+            font-size: 28px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .dica-card p {
+            margin-bottom: 15px;
+        }
+
+        /* Alertas de Atenção */
+        .alerta {
+            background-color: #FFF0F0;
+            border-left: 8px solid var(--cor-destaque);
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        .alerta strong {
+            color: var(--cor-destaque);
+        }
+
+        /* Botão de Ajuda Rápida */
+        .botao-ajuda {
+            display: block;
+            width: 100%;
+            background-color: var(--cor-primaria);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            margin-top: 40px;
+            border: 3px solid #002244;
+        }
+
+        .botao-ajuda:hover, .botao-ajuda:focus {
+            background-color: #002244;
+            outline: 4px solid #FFCC00; /* Destaque visual ao focar */
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 18px;
+            border-top: 2px solid #CCC;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Guia Digital Seguro</h1>
+        <p>Aprenda a usar a internet com segurança e tranquilidade</p>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <p>Clique ou role a tela para ler os principais conselhos para se proteger no celular ou computador.</p>
+        </section>
+
+        <!-- Dica 1 -->
+        <article class="dica-card">
+            <h2>1. Mensagens no WhatsApp</h2>
+            <p>Se você receber uma mensagem de um parente ou amigo pedindo dinheiro urgente porque "mudou de número", desconfie na hora.</p>
+            <div class="alerta">
+                <strong>O que fazer:</strong> Ligue imediatamente para o número antigo do seu parente para confirmar se a história é verdadeira. Não envie dinheiro.
+            </div>
+        </article>
+
+        <!-- Dica 2 -->
+        <article class="dica-card">
+            <h2>2. Links e Promoções</h2>
+            <p>Não clique em links que prometem prêmios, sorteios ou descontos exagerados recebidos por mensagem ou redes sociais.</p>
+            <div class="alerta">
+                <strong>O que fazer:</strong> Apague a mensagem. Bancos e lojas grandes não dão prêmios sem você ter participado de nada oficial.
+            </div>
+        </article>
+
+        <!-- Dica 3 -->
+        <article class="dica-card">
+            <h2>3. Criação de Senhas</h2>
+            <p>Evite usar sua data de nascimento, nome de filhos ou sequências fáceis (como 1234) nas suas senhas do banco ou redes sociais.</p>
+            <div class="alerta">
+                <strong>O que fazer:</strong> Misture letras e números. Anote suas senhas em um caderno físico em casa, guardado em local seguro. Nunca salve senhas em papéis na carteira.
+            </div>
+        </article>
+
+        <!-- Dica 4 -->
+        <article class="dica-card">
+            <h2>4. Ligações de Falsos Bancos</h2>
+            <p>Se alguém ligar dizendo que é do seu banco e que sua conta foi invadida ou clonada, mantenha a calma.</p>
+            <div class="alerta">
+                <strong>O que fazer:</strong> Desligue o telefone. Os bancos nunca pedem senhas por telefone e nunca mandam motoboy buscar o seu cartão.
+            </div>
+        </article>
+
+        <!-- Botão de Ação -->
+        <a href="tel:190" class="botao-ajuda" aria-label="Ligar para a polícia em caso de emergência">🚨 Precisa de Ajuda? Ligue 190</a>
+    </main>
+
+    <footer>
+        <p>Este aplicativo foi feito para ajudar você. Compartilhe com seus amigos!</p>
+    </footer>
+
+</body>
+</html>
